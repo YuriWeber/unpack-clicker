@@ -1,0 +1,2 @@
+# clicker
+Fast clicker game
