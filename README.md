@@ -1,2 +1,2 @@
-# clicker
+# Unpack-Clicker
 Fast clicker game
