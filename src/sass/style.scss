@@ -2,14 +2,26 @@
     VARIABLES
 */
 
-@use "./abstract/variables";
-
+@import "./abstract/variables";
 /*
-    RESET
+    BASE
 */
 
-@use "./base/reset";
+@import "./base/reset";
+@import "./base/typography";
 
 /*
     COMPONENTS
 */
+
+@import "./components/button";
+@import "./components/image";
+@import "./components/others";
+
+/*
+    LAYOUT
+*/
+
+@import "./layout/containers";
+@import "./layout/header";
+@import "./layout/game";
