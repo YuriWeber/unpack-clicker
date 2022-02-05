@@ -1,27 +1,22 @@
 /*
-    VARIABLES
-*/
-
-@import "./abstract/variables";
-/*
     BASE
 */
 
-@import "./base/reset";
-@import "./base/typography";
+@use "./base/reset";
+@use "./base/typography";
 
 /*
     COMPONENTS
 */
 
-@import "./components/button";
-@import "./components/image";
-@import "./components/others";
+@use "./components/button";
+@use "./components/image";
+@use "./components/others";
 
 /*
     LAYOUT
 */
 
-@import "./layout/containers";
-@import "./layout/header";
-@import "./layout/game";
+@use "./layout/containers";
+@use "./layout/header";
+@use "./layout/game";

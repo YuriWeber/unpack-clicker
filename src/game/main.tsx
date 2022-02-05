@@ -1,8 +1,10 @@
+import { logo, box, upgrade } from "../assets"
+
 export default function Unpack() {
     return (
         <>
         <header>
-            <img src="src/assets/placeholder/logo.png" alt="logo.png" className="header-logo"/>
+            <img src={logo} alt="logo.png" className="header-logo"/>
             <div className="menu">
                 <button className="save-button button">Save</button>
                 <button className="options-button button">Options</button>
@@ -12,7 +14,7 @@ export default function Unpack() {
         <div className="game">
             <main>
                 <div className="boxes-area">
-                    <div className="box"><img src="src/assets/placeholder/box.png" alt="box.ng" /></div>
+                    <div className="box"><img src={box} alt="box.ng" /></div>
                 </div>
 
                 <div className="upgrades-container">
@@ -23,43 +25,43 @@ export default function Unpack() {
                     </div>
                     <div className="upgrades">
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                         <div className="upgrade-item-container">
-                            <button className="upgrade"><img src="src/assets/placeholder/upgrade.png" alt="upgrade.png" /></button>
+                            <button className="upgrade"><img src={upgrade} alt="upgrade.png" /></button>
                             <span>CLICK</span>
                         </div>
                     </div>
