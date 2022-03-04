@@ -1,0 +1,24 @@
+@use "../abstract" as *;
+
+.options-menu {
+  font-size: 1.5rem;
+  color: $base-text;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 35px;
+  margin-right: 25px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: $primary;
+  opacity: 95%;
+  width: 105px;
+  border-radius: 5%;
+
+  &.false {
+    display: none;
+  }
+}

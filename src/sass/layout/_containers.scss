@@ -1,14 +1,14 @@
 @use "../abstract" as *;
 
 .upgrades-container {
-  // max-height: 200px;
-  background-color: $header;
+  background-color: $seccondary;
+  box-shadow: inset -10px 10px 10px -10px #000;
 
   .upgrades {
     display: flex;
     align-items: center;
     justify-content: center;
-    // max-height: 150px;
+    flex-wrap: wrap;
     padding: 10px;
 
     .upgrade-item-container {
@@ -17,4 +17,18 @@
       align-items: center;
     }
   }
+}
+
+.info-container {
+  padding: 5px 10px;
+  color: $base-text;
+  background-color: $seccondary;
+  box-shadow: inset 10px 10px 10px -10px #000;
+}
+
+.boxes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $background;
 }

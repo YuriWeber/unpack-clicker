@@ -4,6 +4,7 @@
 
 @use "./base/reset";
 @use "./base/typography";
+@use "./base/global";
 
 /*
     COMPONENTS
@@ -12,6 +13,8 @@
 @use "./components/button";
 @use "./components/image";
 @use "./components/others";
+@use "./components/menu";
+@use "./components/box";
 
 /*
     LAYOUT
